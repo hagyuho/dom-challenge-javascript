@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+}
+
+.box {
+  border: 1px solid;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.even {
+  background-color: white;
+}
+
+.odd {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}

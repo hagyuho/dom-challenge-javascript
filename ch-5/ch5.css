@@ -1,0 +1,16 @@
+.button {
+  border: 1px solid black;
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  width: 500px;
+  height: 30px;
+  transition: all 3s;
+}
