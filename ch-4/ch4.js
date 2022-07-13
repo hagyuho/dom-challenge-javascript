@@ -25,7 +25,7 @@ const createBoard = function (row, col, scoreNum) {
 
   //4. addEventListener
   board.addEventListener("click", (event) =>
-    handleClick(event, row, col, scoreNum)
+    handleButtonClick(event, row, col, scoreNum)
   );
   return board;
 };
